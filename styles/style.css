@@ -172,6 +172,7 @@
   height: 596px;
   /* без параметра высоты картинка на на всю карточку */
 }
+
 .lots_card_film {
   background-image: url(../images/card-lot-01.jpg);
 }
