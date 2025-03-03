@@ -169,7 +169,7 @@
 
 .lots_card_template {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   height: 596px;
   /* без параметра высоты картинка на на всю карточку */
 }
