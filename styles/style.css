@@ -39,6 +39,7 @@
   line-height: 25px;
   text-decoration: none;
   list-style-type: none;
+  padding-left: 190px;
 }
 
 .cover {
@@ -73,7 +74,7 @@
 }
 
 .text-center {
-  line-height: 150px;
+  line-height: 155px;
   text-align: center;
 }
 
@@ -269,6 +270,10 @@
 .about_description_text {
   width: 688px;
   margin-bottom: 25px;
+}
+
+.about_description_text_next {
+  width: 693px;
 }
 
 .footer {
