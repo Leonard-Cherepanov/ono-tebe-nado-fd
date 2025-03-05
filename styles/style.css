@@ -3,7 +3,7 @@
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
-  padding: 93px 10px;
+  padding: 93px 10px 90px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -102,15 +102,15 @@
   text-transform: uppercase;
 }
 
-.description_text { 
-  font-family: Raleway, sans-serif; 
-  font-weight: 400; 
-  font-size: 22px; 
-  line-height: 28px; 
-  word-spacing: 20px; 
+.description_text {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  word-spacing: 20px;
 }
 
-.description_text_next { 
+.description_text_next {
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
@@ -165,7 +165,7 @@
   display: flex;
   flex-direction: column;
   width: 334px;
-  min-height: 550px;
+  min-height: 596px;
   background-position: center center;
   background-size: cover;
 }
