@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
-  /* а как тут адрес сдвинуть вправо */
   align-items: center;
   padding: 93px 10px;
   font-family: Raleway, sans-serif;
@@ -31,6 +30,8 @@
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
   width: 240;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -39,8 +40,11 @@
   line-height: 25px;
   text-decoration: none;
   list-style-type: none;
-  padding-left: 190px;
 }
+
+  .header_address {
+  padding-left: 188px;
+  }
 
 .cover {
   position: relative;
@@ -88,33 +92,14 @@
 
 .description {
   position: relative;
-  /* font-weight: 500; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 100px;
-  /* align-items: flex-end; */
   padding: 106px 0px 0px 0px;
   color: white;
   text-transform: uppercase;
-}
-
-.description_text {
-  font-family: Raleway, sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 28px;
-  word-spacing: 20px;
-}
-
-.description_text_next {
-  font-family: Raleway, sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 28px;
-  word-spacing: 18px;
-
 }
 
 .card_button {
@@ -155,7 +140,7 @@
   flex-wrap: wrap;
   gap: 25px;
   margin: auto;
-  padding-top: 27px;
+  padding-top: 25px;
 }
 
 .lots_card_item {
@@ -163,16 +148,19 @@
   display: flex;
   flex-direction: column;
   width: 334px;
-  min-height: 596px;
+  min-height: 550px;
   background-position: center center;
   background-size: cover;
+}
+
+.lots_card_link {
+  height: 100%;
 }
 
 .lots_card_template {
   display: flex;
   flex-direction: column;
-  height: 596px;
-  /* без параметра высоты картинка на на всю карточку */
+  height: 100%;
 }
 
 .lots_card_film {
@@ -206,7 +194,8 @@
   line-height: 24px;
   position: relative;
   margin-top: auto;
-  padding: 0px 40px 48px;
+  padding: 0px 40px 34px;
+  /* если тут ставлю padding-bottom 48px , то все уезжает вниз. Карточка увеличивается.*/
 }
 
 .lots_go_on_link {
@@ -294,7 +283,6 @@
   font-style: normal;
   line-height: 24px;
   text-underline-offset: 4px;
-
 }
 
 .footer_menu {
