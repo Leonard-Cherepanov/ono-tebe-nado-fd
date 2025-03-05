@@ -102,6 +102,23 @@
   text-transform: uppercase;
 }
 
+.description_text { 
+  font-family: Raleway, sans-serif; 
+  font-weight: 400; 
+  font-size: 22px; 
+  line-height: 28px; 
+  word-spacing: 20px; 
+}
+
+.description_text_next { 
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  word-spacing: 18px;
+  /* прошу обратить внимание. мне кажется, тут два вида параграфа. с разными отступами */
+}
+
 .card_button {
   display: flex;
   width: 256px;
