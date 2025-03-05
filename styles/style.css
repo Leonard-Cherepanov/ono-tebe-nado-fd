@@ -157,7 +157,7 @@
   flex-wrap: wrap;
   gap: 25px;
   margin: auto;
-  padding-top: 25px;
+  padding-top: 27px;
 }
 
 .lots_card_item {
@@ -166,8 +166,6 @@
   flex-direction: column;
   width: 334px;
   min-height: 596px;
-  background-position: center center;
-  background-size: cover;
 }
 
 .lots_card_link {
@@ -178,6 +176,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-position: center center;
+  background-size: cover;
 }
 
 .lots_card_film {
